@@ -1,0 +1,29 @@
+{
+    "dog1": {
+        "imageUrl": "",
+        "name": "",
+        "owner": "",
+        "description": ""
+    },
+
+    "dog2": {
+        "imageUrl": "",
+        "name": "",
+        "owner": "",
+        "description": ""
+    },
+
+    "dog3": {
+        "imageUrl": "",
+        "name": "",
+        "owner": "",
+        "description": ""
+    },
+
+    "dog4": {
+        "imageUrl": "",
+        "name": "",
+        "owner": "",
+        "description": ""
+    }
+}
