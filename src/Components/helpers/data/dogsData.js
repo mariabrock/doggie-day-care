@@ -48,6 +48,6 @@ const dogs = [
   },
 ];
 
-const getDogs = () => dogs;
+const getAllDogs = () => dogs;
 
-export default { getDogs };
+export default { getAllDogs };
