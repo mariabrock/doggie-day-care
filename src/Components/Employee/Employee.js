@@ -1,4 +1,5 @@
 import React from 'react';
+import './Employee.scss';
 
 import employeeShape from '../helpers/propz/employeeShape';
 

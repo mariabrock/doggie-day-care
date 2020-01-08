@@ -1,4 +1,5 @@
 import React from 'react';
+import './Staffroom.scss';
 
 import Employee from '../Employee/Employee';
 
