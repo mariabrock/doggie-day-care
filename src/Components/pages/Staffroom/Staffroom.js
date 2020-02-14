@@ -1,7 +1,7 @@
 import React from 'react';
 import './Staffroom.scss';
 
-import Employee from '../Employee/Employee';
+import Employee from '../../shared/Employee/Employee';
 
 class Staffroom extends React.Component {
     printEmployees = () => {

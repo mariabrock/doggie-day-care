@@ -1,7 +1,7 @@
 import React from 'react';
 import './DogPen.scss';
 
-import Dog from '../Dog/Dog';
+import Dog from '../../shared/Dog/Dog';
 
 class DogPen extends React.Component {
 printDogs = () => {
