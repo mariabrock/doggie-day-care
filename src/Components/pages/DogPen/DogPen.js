@@ -4,8 +4,12 @@ import './DogPen.scss';
 import Dog from '../../shared/Dog/Dog';
 
 class DogPen extends React.Component {
+state = {
+  dogs: [],
+}
+
 printDogs = () => {
-  const { dogs } = this.props;
+  const { dogs } = this.state;
   return dogs.map((dog) => (<Dog key={dog.id} dog={dog} />));
 }
 

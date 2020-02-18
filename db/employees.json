@@ -1,13 +1,25 @@
 {
     "employee1": {
-        "firstName": "",
-        "lastName": "",
-        "phoneNumber": ""
+        "firstName": "Buster",
+        "lastName": "Brown",
+        "phoneNumber": "123.456.7890"
     },
 
     "employee2": {
-        "firstName": "",
-        "lastName": "",
-        "phoneNumber": ""
+        "firstName": "Ada",
+        "lastName": "Lovelady",
+        "phoneNumber": "256.233.0955"
+    },
+
+    "employee3": {
+        "firstName": "Sasha",
+        "lastName": "Motts",
+        "phoneNumber": "987.253.7826"
+    },
+
+    "employee4": {
+        "firstName": "Dustin",
+        "lastName": "Bacon",
+        "phoneNumber": "445.897.3445"
     }
 }

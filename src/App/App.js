@@ -16,6 +16,7 @@ import Auth from '../Components/pages/Auth/Auth';
 import Home from '../Components/pages/Home/Home';
 import DogPen from '../Components/pages/DogPen/DogPen';
 import Staffroom from '../Components/pages/Staffroom/Staffroom';
+import Walk from '../Components/pages/Walk/Walk';
 
 const PublicRoute = ({ component: Component, authed, ...rest }) => {
   const routeChecker = (props) => (authed === false ? <Component {...props} {...rest}/> : <Redirect to={{ pathname: '/', state: { from: props.location } }} />);
@@ -58,7 +59,8 @@ class App extends React.Component {
             <PublicRoute path="/auth" exact component={Auth} authed={authed} />
             <PrivateRoute path="/" exact component={Home} authed={authed} />
             <PrivateRoute path="/dogpen" exact component={DogPen} authed={authed} />
-            <PrivateRoute path="/board/:boardId" exact component={Staffroom} authed={authed} />
+            <PrivateRoute path="/staffroom" exact component={Staffroom} authed={authed} />
+            <PrivateRoute path="/walk" exact component={Walk} authed={authed} />
           </Switch>
         </Router>
       </div>
